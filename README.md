@@ -24,3 +24,33 @@ This project demonstrates basic CRUD (Create, Read, Update, Delete) operations f
 1. Clone the repository:  
    ```bash
    git clone https://github.com/your-username/student-management-system.git
+   
+2. Build the project:
+   mvn clean install
+
+3. Run the Spring Boot application:
+   mvn spring-boot:run
+
+
+**API Endpoints**
+
+| Method | Endpoint         | Description         |
+| ------ | ---------------- | ------------------- |
+| GET    | `/students`      | Get all students    |
+| GET    | `/students/{id}` | Get student by ID   |
+| POST   | `/students`      | Add new student     |
+| PUT    | `/students/{id}` | Update student info |
+| DELETE | `/students/{id}` | Delete student      |
+
+
+**Project Structure**
+
+src/main/java
+ └─ com.example.sms
+     ├─ controller     # REST API endpoints
+     ├─ model          # Student entity
+     ├─ repository     # Spring Data JPA repository
+     ├─ service        # Business logic
+     └─ StudentManagementSystemApplication.java
+
+
