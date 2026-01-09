@@ -23,7 +23,7 @@ This project demonstrates basic CRUD (Create, Read, Update, Delete) operations f
 ## Setup & Installation
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/student-management-system.git
+   git clone https://github.com/DevbBhatt/student-management-system.git
    
 2. Build the project:
    mvn clean install
