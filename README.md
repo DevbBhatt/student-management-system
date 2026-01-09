@@ -52,5 +52,6 @@ src/main/java
      ├─ repository     # Spring Data JPA repository
      ├─ service        # Business logic
      └─ StudentManagementSystemApplication.java
+     
 
 
